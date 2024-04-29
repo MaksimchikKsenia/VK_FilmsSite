@@ -17,7 +17,7 @@ export const MyHook = () => {
           body,
           headers: {
             "Content-Type": "application/json",
-            "X-API-KEY": "9KWQ7WJ-Q0E41WA-P1SBPF7-MCFWNET",
+            "X-API-KEY": "HC8GGHE-2BYMKNH-JJ0B48W-T2AJY0H",
           },
         });
         if (!response.ok) {

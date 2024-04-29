@@ -17,9 +17,7 @@ useEffect(() => {
   onRequest(id);
 }, [id]);
 
-// useEffect(() => {
-//   console.log(filmList);
-// }, [filmList]);
+
 
 const onRequest = (id) => {
   getFilm(id)
@@ -45,7 +43,7 @@ const onFilmLoaded = (newFilm) => {
 }
 
 const View = ({data})=>{
-console.log(data)
+
   return (
     <>
       <div className="card__block">
@@ -83,7 +81,7 @@ console.log(data)
             <Link to={`/${item.id}`} className="link">
               <FilmIcon 
               name={item.name} 
-              rating={item.rating ? item.rating.imdb: 0 } 
+              rating={item.rating ? item.rating.imdb: "-" } 
               src={item.poster ? item.poster.url: noImg  } />
             </Link>
           ))}
