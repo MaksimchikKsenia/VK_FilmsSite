@@ -1,0 +1,78 @@
+body {
+	background-color: rgba(34, 33, 33, 1);
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1330px;
+	width: 100%;
+
+}
+
+.findedFilms{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+	margin: 30px auto;
+}
+
+.main__block {
+	display: flex;
+	
+	align-items: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.main__block-logo {
+	width: 25px;
+	height: 32px;
+}
+
+.main__block-name {
+	margin-left: 12px;
+	width: 82px;
+	height: 56px;
+}
+
+.main__block-searchIcon {
+	margin-left: 90px;
+	width: 27px;
+	height: 27px;
+}
+
+.main__block-search {
+	outline: none;
+	border: none;
+	max-width: 800px;
+	width: 100%;
+	margin-left: 15px;
+	background-color: rgba(34, 33, 33, 1);
+	caret-color: white;
+	padding-top: 5px;
+	color: white;
+	font-size: 24px;
+	font-weight: 600;
+
+}
+
+
+::placeholder {
+	color: white;
+	font-size: 24px;
+	text-align: left;
+	font-family: Inter;
+	font-weight: 500;
+}
+
+.hidden{
+	display:none;
+}
+
+
+@media screen and (max-width:1300px){
+	.main__block{
+		padding-left: 20px;
+	}
+}

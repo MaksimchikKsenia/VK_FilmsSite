@@ -1,0 +1,90 @@
+.film-container {
+	width: 232px;
+	height: 336px;
+	border-radius: 20px;
+	position: relative;
+	filter: blur(0.5px);
+	cursor: pointer;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.film-container:hover {
+	filter: brightness(140%);
+	box-shadow: rgba(227, 232, 237, 0.2) 0px 8px 24px;
+}
+
+.stars {
+	width: 20px;
+	height: 19px;
+}
+
+.film__field {
+	width: 232px;
+	height: 100px;
+	display: block;
+	background-color: rgba(5, 5, 5, 0.815);
+	padding-top: 52px;
+	padding-bottom: 52px;
+	position: absolute;
+	bottom: 0;
+	z-index: 2;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.film__field-rate {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.rate {
+	margin-left: 10px;
+	color: white;
+}
+
+.film__field-name {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 20px;
+	padding: 5px;
+	color: white;
+	font-weight: 700;
+	margin-top: 0;
+}
+
+
+@media screen and (max-width:700px) {
+	.film-container {
+		width: 180px;
+		height: 280px;
+	}
+
+	.film__field {
+		width: 180px;
+		height: 80px;
+	}
+
+		.stars {
+			width: 10px;
+			height: 9px;
+		}
+}
+
+@media screen and (max-width:550px) {
+	.film-container {
+		width: 200px;
+		height: 300px;
+	}
+
+	.film__field {
+		width: 200px;
+		height: 90px;
+	}
+
+	.stars {
+		width: 15px;
+		height: 12px;
+	}
+}

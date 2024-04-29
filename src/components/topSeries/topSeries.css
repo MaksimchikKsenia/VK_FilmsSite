@@ -1,0 +1,28 @@
+.top__container {
+	max-width: 311px;
+	width: 100%;
+	padding-top: 47px;
+}
+
+.top__list {
+	display: grid;
+	grid-template-columns: repeat(1, 248px);
+	row-gap: 50px;
+	margin-top: 35px;
+}
+
+.top__title {
+	color: white;
+	font-size: 28px;
+	font-weight: 500;
+	margin-bottom: 40px;
+}
+
+.top__line {
+	width: 200px;
+	height: 4px;
+	background: linear-gradient(to right, yellow, black);
+	margin-top: 20px;
+	margin-bottom: 35px;
+	margin: 0 auto;
+}
